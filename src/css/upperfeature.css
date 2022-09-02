@@ -1,0 +1,15 @@
+.InnerWrapUpperFeatures {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem 1rem 10rem;
+}
+.topEleimg {
+  width: 3rem;
+}
+.topElement {
+  cursor: pointer;
+}
+.topElement a {
+  text-decoration: none;
+  color: black;
+}

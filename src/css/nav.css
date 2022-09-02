@@ -1,0 +1,55 @@
+.navbarInnerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: #fbed02;
+  align-items: center;
+}
+
+.secondNavWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: #bcb523;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.navbarInnerWrapper a {
+  text-decoration: none !important;
+  color: black;
+  font-size: 0.8rem;
+}
+.searchWrap {
+  width: 25vw;
+  display: flex;
+}
+.searchInput {
+  width: 20vw;
+  margin-right: 10px;
+  border: none;
+  padding: 10px;
+}
+.searchBtn {
+  cursor: pointer;
+  background-color: rgb(44, 44, 103);
+  border: none;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  border-radius: 2px;
+}
+.searchBtn:hover {
+  background-color: rgb(48, 48, 126);
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  left: 30px;
+  top: 58px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}

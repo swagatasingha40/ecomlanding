@@ -1,0 +1,10 @@
+.banner {
+  width: 100vw;
+}
+.bannerImg {
+  width: inherit;
+  height: 20rem;
+}
+.thumbs {
+  display: none;
+}
