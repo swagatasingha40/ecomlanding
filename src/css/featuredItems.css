@@ -27,3 +27,13 @@
   color: rgb(29, 36, 111);
   margin-top: 0px;
 }
+.featuredSpanner {
+  background-color: red;
+  color: white;
+  position: relative;
+  right: 100px;
+  font-size: 10px;
+  padding: 0.2rem 1rem;
+  border-radius: 3px;
+  top: 45px;
+}

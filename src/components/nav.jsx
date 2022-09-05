@@ -3,13 +3,16 @@ import "../css/nav.css";
 import Sidebar from "./sidebar";
 import { BsFillGeoAltFill } from "react-icons/bs";
 import { BsCartPlusFill } from "react-icons/bs";
+import Logo from "../assets/infra-bag-logo.webp";
 
 function Navbar(props) {
   return (
     <div className="navbarOuterWrapper" id="navbar">
       <div className="navbarInnerWrapper">
         <div className="logo">
-          <a href="/">LOGO</a>
+          <a href="/">
+            <img className="navlogo" src={Logo} alt="logo" />
+          </a>
         </div>
         <div className="deliver">
           <a href="/">
@@ -30,6 +33,7 @@ function Navbar(props) {
           <a href="/">Sign In</a>
         </div>
         <div className="cart">
+          <span className="featuredCart">0</span>
           <a href="/">
             <BsCartPlusFill />
           </a>

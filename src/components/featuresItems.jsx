@@ -2,7 +2,8 @@ import React from "react";
 import "../css/featuredItems.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import CementI from "../assets/cement.png";
+import CementI from "../assets/ramco.webp";
+import Cement from "../assets/ambuja.webp";
 
 function FeaturedItems(props) {
   const responsive = {
@@ -30,6 +31,18 @@ function FeaturedItems(props) {
         <div>
           <Carousel responsive={responsive}>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
+              <a href="#">
+                <img className="topEleimg1" src={Cement} alt="img1" />
+                <p className="prodname">Cement Name</p>
+                <div className="priceClass">
+                  <p className="priceSpan">Price</p>
+                  <p className="offerspan">(Offer)</p>
+                </div>
+              </a>
+            </div>
+            <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
                 <img className="topEleimg1" src={CementI} alt="img1" />
                 <p className="prodname">Cement Name</p>
@@ -40,6 +53,18 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
+              <a href="#">
+                <img className="topEleimg1" src={Cement} alt="img1" />
+                <p className="prodname">Cement Name</p>
+                <div className="priceClass">
+                  <p className="priceSpan">Price</p>
+                  <p className="offerspan">(Offer)</p>
+                </div>
+              </a>
+            </div>
+            <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
                 <img className="topEleimg1" src={CementI} alt="img1" />
                 <p className="prodname">Cement Name</p>
@@ -50,8 +75,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>
@@ -60,8 +86,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>
@@ -70,8 +97,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>
@@ -80,8 +108,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>
@@ -90,8 +119,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>
@@ -100,28 +130,9 @@ function FeaturedItems(props) {
               </a>
             </div>
             <div className="topElement1">
+              <span className="featuredSpanner">Featured</span>
               <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
-                <p className="prodname">Cement Name</p>
-                <div className="priceClass">
-                  <p className="priceSpan">Price</p>
-                  <p className="offerspan">(Offer)</p>
-                </div>
-              </a>
-            </div>
-            <div className="topElement1">
-              <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
-                <p className="prodname">Cement Name</p>
-                <div className="priceClass">
-                  <p className="priceSpan">Price</p>
-                  <p className="offerspan">(Offer)</p>
-                </div>
-              </a>
-            </div>
-            <div className="topElement1">
-              <a href="#">
-                <img className="topEleimg1" src={CementI} alt="img1" />
+                <img className="topEleimg1" src={Cement} alt="img1" />
                 <p className="prodname">Cement Name</p>
                 <div className="priceClass">
                   <p className="priceSpan">Price</p>

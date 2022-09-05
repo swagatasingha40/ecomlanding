@@ -5,7 +5,7 @@ function Footer(props) {
   return (
     <div className="footerOuterWrap">
       <div className="innerFooterWrap">
-        <div>Footer</div>
+        <div>Copyright © Infrabag</div>
       </div>
     </div>
   );
